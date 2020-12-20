@@ -1,4 +1,4 @@
-# MultithreadedFizzBuzz
+# Multithreaded FizzBuzz
 A multithreaded FizzBuzz implementation
 
 Uses waitgroups (https://gobyexample.com/waitgroups) to parallelize FizzBuzz
@@ -72,3 +72,4 @@ TotalMinutes      : 0.133475536666667
 TotalSeconds      : 8.0085322
 TotalMilliseconds : 8008.5322
 ```
+> My implementation *is* a lot slower or faster depending on the archetecture it is being run on (https://stackoverflow.com/questions/3652056/how-efficient-is-locking-an-unlocked-mutex-what-is-the-cost-of-a-mutex)
