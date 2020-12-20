@@ -7,10 +7,12 @@ import (
 	"sort"
 	"strconv"
 	"sync"
+
+	"github.com/julienschmidt/spinlock"
 )
 
 var (
-	mutex   sync.Mutex
+	mutex   spinlock.Mutex
 	current = 0
 	result  = make(map[int]string)
 	input   int
